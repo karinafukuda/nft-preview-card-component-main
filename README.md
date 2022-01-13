@@ -17,4 +17,4 @@ Your challenge is to build out this preview card component and get it looking as
 You can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.
 
 ### See my Deploy:
-[HERE] (https://github.com/karinafukuda/nft-preview-card-component-main/deployments/activity_log?environment=github-pages) 
+[HERE] (https://karinafukuda.github.io/nft-preview-card-component-main/) 
