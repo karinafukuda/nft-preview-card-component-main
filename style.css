@@ -1,0 +1,104 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Outfit', arial, sans-serif;
+  text-decoration: none;
+}
+
+body {
+  background-color: hsl(217, 54%, 11%);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  margin: 5%;
+  background-color: hsl(216, 50%, 16%);
+  padding: 1em;
+  border-radius: 1.3em;
+  width: 300px;
+  max-height: 600px;
+
+  box-shadow: 1px 3px 14px 12px rgba(00, 20, 40, 0.84);
+}
+
+.image img {
+  max-width: 300px;
+  heigth: 100px;
+  border-radius: 0.5em;
+  marginp: 1em;
+}
+
+h1 {
+  color: hsl(0, 0%, 100%);
+  font-weight: 600;
+  font-size: 1.2em;
+  margin: 1.5em 0 1.5em 0;
+}
+
+.infos {
+  margin: 1.2em 0 1.2em 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  align-content: center;
+}
+
+hr{
+   background-color: hsl(215, 51%, 70%); opacity: 0.1;
+   margin-top:.3em;
+}
+
+.data {
+  color: hsl(178, 100%, 50%);
+  font-weight: 600;
+}
+
+.days {
+  color: hsl(215, 51%, 70%);
+  font-weight: 400;
+  margin-right: 5px;
+}
+
+.data img,
+.days img
+{
+  padding: 0px 5px 0px 0;
+}
+
+p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: hsl(215, 51%, 70%);
+}
+
+.base{
+  display: flex;
+  align-items: center;
+}
+
+.text,
+text__author {
+  font-size: 1em;
+  padding: 1em; .5em;
+}
+
+.text__author {
+  color: hsl(0, 0%, 100%);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+  padding: 1em;
+}
