@@ -42,7 +42,7 @@ h1 {
 }
 
 .infos {
-  margin: 1.2em 0 1.2em 0;
+  margin: 1.2em 0 1.6em 0;
   display: flex;
   justify-content: space-between;
   align-items: baseline;
@@ -70,6 +70,14 @@ hr{
 {
   padding: 0px 5px 0px 0;
 }
+
+.icon__ethereum,
+.icon__clock  
+{
+  position: relative;
+  top: 4px;
+}
+
 
 p {
   font-size: 18px;
