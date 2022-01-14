@@ -10,6 +10,7 @@ Thanks for checking out this front-end coding challenge.
 
 **To do this challenge, you need a basic understanding of HTML and CSS.**
 
-### Deploy: 
+### See my Deploy:
 
-[See my component HERE] (https://karinafukuda.github.io/nft-preview-card-component-main/) 
+[HERE] (https://karinafukuda.github.io/nft-preview-card-component-main/)
+

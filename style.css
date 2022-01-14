@@ -38,11 +38,11 @@ h1 {
   color: hsl(0, 0%, 100%);
   font-weight: 600;
   font-size: 1.2em;
-  margin: 1.5em 0 1.5em 0;
+  margin: 1em 0 1.5em 0;
 }
 
 .infos {
-  margin: 1.2em 0 1.2em 0;
+  margin: 1.2em 0 1.6em 0;
   display: flex;
   justify-content: space-between;
   align-items: baseline;
@@ -71,6 +71,13 @@ hr{
   padding: 0px 5px 0px 0;
 }
 
+.icon__ethereum,
+.icon__clock  
+{
+  position: relative;
+  top: 4px;
+}
+
 p {
   font-size: 18px;
   font-weight: 400;
@@ -91,6 +98,34 @@ text__author {
 
 .text__author {
   color: hsl(0, 0%, 100%);
+}
+
+.link:hover{
+  cursor: pointer;
+  transition: .6s;
+}
+
+.link:active{
+  color:hsl(178, 100%, 50%);
+  transition: .2s;
+}
+
+.icon__photo__eye{
+  display:none;
+
+}
+
+.icon__photo__eye:hover{
+  display: inline;
+  position: relative;
+  z-index: 999;s
+  bottom: 180px;
+  margin-left: 130px;
+}
+
+.image__active:active{
+  filter: hue-rotate(325deg) opacity(90%) brightness(300%);
+  transition: .5s;
 }
 
 .attribution {
