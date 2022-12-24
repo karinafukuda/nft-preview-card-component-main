@@ -12,5 +12,5 @@ Thanks for checking out this front-end coding challenge.
 
 ### See my Deploy:
 
-[HERE] (https://karinafukuda.github.io/nft-preview-card-component-main/)
+[HERE](https://karinafukuda.github.io/nft-preview-card-component-main/)
 
